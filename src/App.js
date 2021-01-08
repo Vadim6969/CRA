@@ -1,8 +1,11 @@
 import React from "react";
-function App() {
+import Contacts from "./pages/Contacts/Contacts";
+
+const App = () => {
+
   return (
     <div className="App">
-
+      <Contacts/>
     </div>
   );
 }
